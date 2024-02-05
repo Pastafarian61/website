@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-image: url(cinnamon_roll.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: fixed;
+    opacity: 85%;
+    height: 150vh;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(25, 24, 0, 0.5)
+}
+
+.logo {
+    width: 30%;
+}
+
+.navbar_links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar_links li {
+    font-size: 1.5rem;
+    width: 120px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar_links a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 2.7rem;
+    font-family: 'Rubik Bubbles', system-ui;
+    color: white;
+    margin-left: 1cm;
+
+}
+
+li a:hover{
+    transition: all 0.5s ease-in;
+    background-color: yellow;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee_bar {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: fantasy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+}
+
+.h2 {
+    font-size: 50pt;
+    font-family: fantasy;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: white;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
+}
+
+.p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+.p {
+    width: 980px;
+    margin: 0;
+}
+
+
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links a {
+    font-size: 20pt;
+    opacity: 0.9;
+}
+
+.footer-links a:hover {
+    background-color: aqua;
+    transition: 0.5s ease-in;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links ul a{
+    color: white;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-links ul a:hover{
+    opacity: 1;
+    break-after: initial;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+}
+
+.h3 a{
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+.picture {
+    display: flex;
+    justify-items: center;
+    margin: 0;
+}
+
+
+.bread { 
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Rubik Bubbles', system-ui;
+}
+
+.cookies { 
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Rubik Bubbles', system-ui;
+
+}
+
+.pain_au_chocolat { 
+    width:  250px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Rubik Bubbles', system-ui;
+
+}
+
+
+.picture {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+
+.picture img {
+    width: 250px;
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Rubik Bubbles', system-ui;
+    font-size: 16pt;
+    color: rgb(34, 34, 34);
+}
+
+h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+}
+
+.h4 a{
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+.drink-item {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.drink-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.drink-item .caption {
+    text-align: center;
+    font-family: 'Rubik Bubbles', system-ui;
+    font-size: 16pt;
+    color: rgb(34, 34, 34);
+}
+
